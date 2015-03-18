@@ -1,5 +1,5 @@
 class CloudsController < ApplicationController
   def index
-    @cloud = Cloud.all
+    @clouds = Cloud.all
   end
 end
